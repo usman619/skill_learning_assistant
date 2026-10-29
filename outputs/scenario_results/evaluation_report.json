@@ -1,0 +1,31 @@
+{
+  "scenarios": {
+    "T01_initial_use": "PASS",
+    "T02_later_interaction": "PASS",
+    "T04_approved_correction": "PASS",
+    "T03_process_restart": "PASS",
+    "T03_restart_then_continue": "PASS",
+    "T05_learner_isolation": "PASS",
+    "T06_missing_conflicting_evidence": "PASS",
+    "T07_tool_failure_and_retry_idempotency": "PASS",
+    "T08_untrusted_instructions_blocked": "PASS",
+    "T09_insufficient_evidence_adaptation": "PASS",
+    "T10_repeated_missed_sessions": "PASS",
+    "T11_episode_summaries_populated": "PASS",
+    "T12_workflow_checkpoints": "PASS"
+  },
+  "memory_comparisons": {
+    "M01_missed_previous_task": {
+      "memory_enabled": "reschedule",
+      "memory_disabled": "request clarification"
+    },
+    "M02_corrected_availability": {
+      "memory_enabled_hours": 2.0,
+      "memory_disabled_hours": null
+    },
+    "M03_weak_evidence_targeting": {
+      "memory_enabled_decision": "reinforce",
+      "memory_disabled_decision": "request clarification"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "profile": {
+    "profile_id": "prof_e83f050edb",
+    "learner_id": "learner_demo_01",
+    "goal": "Learn Python data analysis",
+    "current_level": "beginner",
+    "hours_per_week": 4.0,
+    "deadline": "2026-11-30",
+    "version": 1,
+    "is_current": true,
+    "updated_at": "2026-10-29T15:03:50.892216+00:00"
+  },
+  "resources": [
+    {
+      "title": "Data Analysis with Python Beginner Tutorial",
+      "url": "https://www.youtube.com/watch?v=_d1s4Pw9y3Y",
+      "source": "tavily_live",
+      "relevance": "high",
+      "retrieved_at": "2026-10-29T15:03:50.907461+00:00",
+      "is_cached": false
+    },
+    {
+      "title": "Learning Python: Load CSV and perform simple data interpretation with Pandas",
+      "url": "https://www.youtube.com/watch?v=kj0OeJn99lk",
+      "source": "tavily_live",
+      "relevance": "high",
+      "retrieved_at": "2026-10-29T15:03:50.907461+00:00",
+      "is_cached": false
+    },
+    {
+      "title": "Getting Started - Data Cleaning and Inspection with Python - Library Guides at Tulane University",
+      "url": "https://libguides.tulane.edu/python_cleaning_inspection",
+      "source": "tavily_live",
+      "relevance": "high",
+      "retrieved_at": "2026-10-29T15:03:50.907461+00:00",
+      "is_cached": false
+    }
+  ],
+  "proposal": {
+    "decision": "Continue",
+    "recommended_task": "Watch the YouTube video 'Data Analysis with Python Beginner Tutorial' and then complete a short quiz covering key concepts such as what pandas is, how to load a CSV, and basic data inspection.",
+    "reason": "The learner has no current task and no assessment. The provided beginner tutorial is the most appropriate starting point to build foundational knowledge in Python data analysis. A 60\u2011minute session aligns with the learner\u2019s 4\u2011hour weekly budget and allows time for watching the video and completing a brief quiz to confirm understanding.",
+    "supporting_evidence": [
+      "Data Analysis with Python Beginner Tutorial (https://www.youtube.com/watch?v=_d1s4Pw9y3Y)"
+    ],
+    "estimated_minutes": 60,
+    "success_criteria": [
+      "Learner can explain the purpose of pandas in data analysis.",
+      "Learner can list the steps to load a CSV file using pandas.",
+      "Learner answers at least 4 out of 5 quiz questions correctly."
+    ],
+    "approval_required": false,
+    "memory_changes": {
+      "active_task": "Watch 'Data Analysis with Python Beginner Tutorial' and complete a short quiz"
+    }
+  },
+  "plan": {
+    "plan_id": "plan_8b632702b1",
+    "learner_id": "learner_demo_01",
+    "version": 1,
+    "goal": "Learn Python data analysis",
+    "status": "active",
+    "reason": "The learner has no current task and no assessment. The provided beginner tutorial is the most appropriate starting point to build foundational knowledge in Python data analysis. A 60\u2011minute session aligns with the learner\u2019s 4\u2011hour weekly budget and allows time for watching the video and completing a brief quiz to confirm understanding.",
+    "active_task": {
+      "task_id": "task_db972452f4",
+      "plan_id": "plan_8b632702b1",
+      "title": "Watch the YouTube video 'Data Analysis with Python Beginner Tutorial' and then complete a short quiz covering key concepts such as what pandas is, how to load a CSV, and basic data inspection.",
+      "acceptance_criteria": [
+        "Learner can explain the purpose of pandas in data analysis.",
+        "Learner can list the steps to load a CSV file using pandas.",
+        "Learner answers at least 4 out of 5 quiz questions correctly."
+      ],
+      "estimated_minutes": 60,
+      "due_date": "2026-11-30",
+      "priority": 1,
+      "status": "assigned"
+    }
+  }
+}

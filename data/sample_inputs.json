@@ -1,0 +1,22 @@
+{
+    "session_1_onboarding": {
+        "learner_id": "learner_demo_01",
+        "goal": "Learn Python data analysis",
+        "current_level": "beginner",
+        "hours_per_week": 4.0,
+        "deadline": "2026-11-30"
+    },
+    "session_2_missed_and_correction": {
+        "learner_id": "learner_demo_01",
+        "outcome": "missed",
+        "user_message": "I missed the practice session because I had less time than expected. I can now study only two hours per week.",
+        "new_hours_per_week": 2.0,
+        "idempotency_key": "idem_sess2_001"
+    },
+    "session_3_partial_evidence": {
+        "learner_id": "learner_demo_01",
+        "outcome": "partial",
+        "evidence_submission": "import pandas as pd\ndf = pd.read_csv('sales.csv')\nprint(df.columns)\n# Output: Index(['date', 'revenue', 'units'], dtype='object')\n# I could not figure out how to select the numeric column and calculate the mean.",
+        "idempotency_key": "idem_sess3_001"
+    }
+}

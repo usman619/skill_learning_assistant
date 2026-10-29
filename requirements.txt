@@ -1,0 +1,9 @@
+langchain
+langchain-core
+langchain-groq
+langchain-community
+tavily-python
+pydantic
+python-dotenv
+pytest
+openpyxl==3.1.5

@@ -1,0 +1,26 @@
+[
+    {
+        "resource_id": "res_pd_01",
+        "topic": "python data analysis",
+        "title": "pandas.read_csv Official Documentation",
+        "url": "https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html",
+        "source": "pandas.pydata.org (cached)",
+        "level": "beginner"
+    },
+    {
+        "resource_id": "res_pd_02",
+        "topic": "python data analysis",
+        "title": "10 Minutes to pandas - Inspecting Columns and DataFrames",
+        "url": "https://pandas.pydata.org/docs/user_guide/10min.html",
+        "source": "pandas.pydata.org (cached)",
+        "level": "beginner"
+    },
+    {
+        "resource_id": "res_pd_03",
+        "topic": "python data analysis",
+        "title": "Calculating Summary Statistics and Column Means in pandas",
+        "url": "https://pandas.pydata.org/docs/getting_started/intro_tutorials/06_calculate_statistics.html",
+        "source": "pandas.pydata.org (cached)",
+        "level": "beginner"
+    }
+]

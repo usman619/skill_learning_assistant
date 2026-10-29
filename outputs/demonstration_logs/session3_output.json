@@ -1,0 +1,115 @@
+{
+  "state_recovered": true,
+  "current_profile": {
+    "profile_id": "prof_bbfbef2902",
+    "learner_id": "learner_demo_01",
+    "goal": "Learn Python data analysis",
+    "current_level": "beginner",
+    "hours_per_week": 2.0,
+    "deadline": "2026-11-30",
+    "version": 2,
+    "is_current": 1,
+    "updated_at": "2026-10-29T15:03:53.978102+00:00"
+  },
+  "assessment": {
+    "criteria_results": {
+      "Loads CSV successfully": "Demonstrated",
+      "Selects intended numeric column": "Not demonstrated",
+      "Calculates mean correctly": "Not demonstrated"
+    },
+    "supporting_code_or_output": "Insufficient",
+    "score": 0.33,
+    "overall_status": "Partial",
+    "missing_gaps": [
+      "Selects intended numeric column",
+      "Calculates mean correctly"
+    ],
+    "demonstrated_skills": [
+      "Loads CSV successfully"
+    ],
+    "injection_blocked": false
+  },
+  "practice_record": {
+    "session_id": "sess_3d083d08e9",
+    "learner_id": "learner_demo_01",
+    "task_id": "task_f60c52b16b",
+    "outcome": "partial",
+    "evidence_ref": "import pandas as pd; df = pd.read_csv('sales.csv'); print(df.columns) # I could not calculate the mean of the selected column",
+    "assessment_status": "Partial",
+    "assessment_summary": {
+      "criteria_results": {
+        "Loads CSV successfully": "Demonstrated",
+        "Selects intended numeric column": "Not demonstrated",
+        "Calculates mean correctly": "Not demonstrated"
+      },
+      "supporting_code_or_output": "Insufficient",
+      "score": 0.33,
+      "overall_status": "Partial",
+      "missing_gaps": [
+        "Selects intended numeric column",
+        "Calculates mean correctly"
+      ],
+      "demonstrated_skills": [
+        "Loads CSV successfully"
+      ],
+      "injection_blocked": false
+    },
+    "created_at": "2026-10-29T15:03:59.094345+00:00",
+    "idempotency_key": "demo_sess3_001",
+    "duplicate_prevented": false
+  },
+  "proposal": {
+    "decision": "reinforce",
+    "recommended_task": "Micro-practice (30 mins): Select numeric column and compute mean",
+    "reason": "The learner successfully loaded the CSV but did not demonstrate selecting a numeric column or computing its mean. A focused, shorter micro-practice will reinforce these missing skills without exceeding the 2\u2011hour weekly limit.",
+    "supporting_evidence": [
+      "Assessment: Loads CSV successfully \u2013 Demonstrated; Selects intended numeric column \u2013 Not demonstrated; Calculates mean correctly \u2013 Not demonstrated",
+      "Resources: Python pandas Tutorial: The Ultimate Guide for Beginners; Python for Data Analysis, 3E \u2013 Getting Started with pandas"
+    ],
+    "estimated_minutes": 30,
+    "success_criteria": [
+      "Selects intended numeric column",
+      "Calculates mean correctly",
+      "Prints the mean value"
+    ],
+    "approval_required": false,
+    "memory_changes": {
+      "active_task": {
+        "acceptance_criteria": [
+          "Selects intended numeric column",
+          "Calculates mean correctly",
+          "Prints the mean value"
+        ],
+        "due_date": "2026-11-30",
+        "estimated_minutes": 30,
+        "plan_id": "plan_8a7aa083aa",
+        "priority": 1,
+        "status": "assigned",
+        "task_id": "task_9f3e7b2c1d",
+        "title": "Micro-practice (30 mins): Select numeric column and compute mean"
+      }
+    }
+  },
+  "revised_plan": {
+    "plan_id": "plan_56e675df99",
+    "learner_id": "learner_demo_01",
+    "version": 3,
+    "goal": "Learn Python data analysis",
+    "status": "active",
+    "reason": "The learner successfully loaded the CSV but did not demonstrate selecting a numeric column or computing its mean. A focused, shorter micro-practice will reinforce these missing skills without exceeding the 2\u2011hour weekly limit.",
+    "active_task": {
+      "task_id": "task_a91962b31a",
+      "plan_id": "plan_56e675df99",
+      "title": "Micro-practice (30 mins): Select numeric column and compute mean",
+      "acceptance_criteria": [
+        "Selects intended numeric column",
+        "Calculates mean correctly",
+        "Prints the mean value"
+      ],
+      "estimated_minutes": 30,
+      "due_date": "2026-11-30",
+      "priority": 1,
+      "status": "assigned"
+    }
+  }
+}
